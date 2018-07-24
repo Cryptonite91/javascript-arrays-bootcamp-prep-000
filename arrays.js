@@ -32,7 +32,8 @@ function destructivelyAddElementToEndOfArray(){
 
 function accessElementInArray(){
   var myAccessArray = [1,2,3]
-  console.log(myAccessArray[2])
+  return myAccessArray[2]
+  
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(){
