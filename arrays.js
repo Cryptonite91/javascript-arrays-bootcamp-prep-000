@@ -11,9 +11,9 @@ function addElementToBeginningOfArray(){
   return myBeginArray1
 }
 
-function destructivelyAddElementToBeginningOfArray(something){
+function destructivelyAddElementToBeginningOfArray(){
   myBeginArray2 = [1]
-  myBeginArray2 = ['foo',...myBeginArray2]
+  myBeginArray2.unshift('foo')
   return myBeginArray2
 }
 
